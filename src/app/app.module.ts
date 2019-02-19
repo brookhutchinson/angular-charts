@@ -8,12 +8,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 // components
 import { AppComponent }     from './app.component';
+import { NavbarComponent }  from './components/navbar/navbar.component';
 
 @NgModule({
   // modules
   imports: [ AppRoutingModule, BrowserModule, ChartsModule, FormsModule, HttpClientModule ],
   // components
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, NavbarComponent ],
   // services
   providers: [],
   // bootstrap
