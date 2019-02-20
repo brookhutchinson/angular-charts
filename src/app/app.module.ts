@@ -12,12 +12,13 @@ import { BarChartComponent }      from './components/bar-chart/bar-chart.compone
 import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
 import { NavbarComponent }        from './components/navbar/navbar.component';
 import { PieChartComponent }      from './components/pie-chart/pie-chart.component';
+import { RadarChartComponent }    from './components/radar-chart/radar-chart.component';
 
 @NgModule({
   // modules
   imports: [ AppRoutingModule, BrowserModule, ChartsModule, FormsModule, HttpClientModule ],
   // components
-  declarations: [ AppComponent, BarChartComponent, DoughnutChartComponent, NavbarComponent, PieChartComponent ],
+  declarations: [ AppComponent, BarChartComponent, DoughnutChartComponent, NavbarComponent, PieChartComponent, RadarChartComponent ],
   // services
   providers: [],
   // bootstrap
