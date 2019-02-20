@@ -10,12 +10,13 @@ import { HttpClientModule }  from '@angular/common/http';
 import { AppComponent }      from './app.component';
 import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 import { NavbarComponent }   from './components/navbar/navbar.component';
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 
 @NgModule({
   // modules
   imports: [ AppRoutingModule, BrowserModule, ChartsModule, FormsModule, HttpClientModule ],
   // components
-  declarations: [ AppComponent, BarChartComponent, NavbarComponent ],
+  declarations: [ AppComponent, BarChartComponent, NavbarComponent, PieChartComponent ],
   // services
   providers: [],
   // bootstrap
